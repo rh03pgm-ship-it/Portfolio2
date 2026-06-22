@@ -126,7 +126,7 @@ Terraformを利用したAzureインフラ構成管理の基本的な考え方を
 
 ### 学習成果
 
-* Azure検証環境の構築を通じて、Microsoft Entra ID、VNet、NSG、Azure Virtual Desktop、Storage Account、Recovery Services * Vaultの基本構成を学習しました。
+* Azure検証環境の構築を通じて、Microsoft Entra ID、VNet、NSG、Azure Virtual Desktop、Storage Account、Recovery Services Vaultの基本構成を学習しました。
 
 * また、Azure PowerShellおよびTerraformを利用したリソース管理・自動化についても学習し、クラウドインフラ運用の基礎知識を習得しました。
 
