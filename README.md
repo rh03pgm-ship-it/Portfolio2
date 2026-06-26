@@ -17,35 +17,46 @@ graph TD
 
     A[Azure Subscription]
 
-    A --> B[RG-AVD-LAB]
+    A --> B[Resource Group<br>RG-AVD-LAB]
 
-    B --> C[VNet-AVD<br>10.0.0.0/16]
+    A --> C[Microsoft Entra ID]
+    C --> C1[Users / Groups]
+    C --> C2[RBAC]
+    C --> C3[Conditional Access]
 
-    C --> D1[default<br>10.0.0.0/24]
-    C --> D2[Management<br>10.0.1.0/24]
-    C --> D3[AVD<br>10.0.2.0/24]
+    B --> D[VNet-AVD<br>10.0.0.0/16]
 
-    B --> E[NSG-AVD]
+    D --> D1[default<br>10.0.0.0/24]
+    D --> D2[Management<br>10.0.1.0/24]
+    D --> D3[AVD<br>10.0.2.0/24]
+
+    B --> E[Network Security Group]
 
     E --> E1[HTTP<br>TCP 80]
     E --> E2[HTTPS<br>TCP 443]
     E --> E3[RDP<br>TCP 3389]
+    E --> E4[SSH<br>TCP 22]
 
-    B --> F[Storage Account]
+    B --> F[Windows Server VM]
+    B --> G[Ubuntu Server VM]
 
-    B --> G[Recovery Services Vault]
+    D2 --> F
+    D2 --> G
 
     B --> H[Azure Virtual Desktop]
 
-    H --> I[Host Pool]
+    H --> H1[Host Pool]
+    H1 --> H2[Session Host]
+    H --> H3[Application Group]
+    H --> H4[Workspace]
 
-    H --> J[Application Group]
+    B --> I[Storage Account]
 
-    A --> K[Microsoft Entra ID]
+    B --> J[Recovery Services Vault]
 
-    K --> L[RBAC]
+    B --> K[Azure PowerShell]
 
-    K --> M[Conditional Access]
+    B --> L[Terraform]
 ```
 
 # 構築内容
