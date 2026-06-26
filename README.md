@@ -216,8 +216,3 @@ Azure検証環境の構築を通じて、Microsoft Entra ID、Virtual Network、
 また、Windows ServerおよびUbuntu Serverの構築・リモート接続、Azure PowerShellおよびTerraformを利用したリソース管理・自動化を通じて、Azure IaaS環境の設計・構築・運用に関する基礎知識を習得しました。
 
 今後は、Active Directory Domain Services（AD DS）、Azure Monitor、Azure Backup運用、Terraformによる環境構築の自動化など、より実践的なAzure運用技術について継続して学習を進めていきます。
-
-
-また、Windows ServerおよびUbuntu Serverの構築・リモート接続、Azure PowerShellおよびTerraformを利用したリソース管理・自動化を通じて、Azure IaaS環境の設計・構築・運用に関する基礎知識を習得しました。
-
-今後は、Active Directory Domain Services（AD DS）、Azure Monitor、Azure Backup運用、Terraformによる環境構築の自動化など、より実践的なAzure運用技術について継続して学習を進めていきます。
