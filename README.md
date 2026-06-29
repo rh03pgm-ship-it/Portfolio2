@@ -193,7 +193,9 @@ Get-AzVirtualNetwork
 Get-AzNetworkSecurityGroup
 Get-AzVM
 ```
+
 Azure Cloud ShellおよびAzure PowerShellを活用することで、ブラウザ上からAzureリソースを管理・操作する方法を習得し、GUIとCLIの両方を利用したAzure運用の基本を学習しました。
+
 ---
 
 ## Terraform
