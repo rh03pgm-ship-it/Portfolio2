@@ -170,9 +170,19 @@ Recovery Services Vaultを利用し、Azure Backupについて学習しました
 
 ---
 
-## Azure PowerShell
+## Azure PowerShell / Azure Cloud Shell
 
-Azure PowerShell（Azモジュール）を利用してAzureリソースを管理しました。
+Azure PowerShell（Azモジュール）およびAzure Cloud Shellを利用し、Azureリソースの管理・情報取得・操作を実施しました。
+
+### 学習内容
+* Azure Cloud Shellの利用
+* Azure PowerShell（Azモジュール）の利用
+* Azureへのサインイン
+* Resource Group情報の取得
+* Virtual Network情報の取得
+* Network Security Group情報の取得
+* Virtual Machine情報の取得
+* Cloud ShellからAzureリソースの操作方法を学習
 
 ### 使用コマンド
 
@@ -183,7 +193,7 @@ Get-AzVirtualNetwork
 Get-AzNetworkSecurityGroup
 Get-AzVM
 ```
-
+Azure Cloud ShellおよびAzure PowerShellを活用することで、ブラウザ上からAzureリソースを管理・操作する方法を習得し、GUIとCLIの両方を利用したAzure運用の基本を学習しました。
 ---
 
 ## Terraform
