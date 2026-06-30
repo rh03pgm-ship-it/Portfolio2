@@ -170,19 +170,44 @@ Recovery Services Vaultを利用し、Azure Backupについて学習しました
 
 ---
 
-## Azure PowerShell / Azure Cloud Shell
+## Azure Cloud Shell
 
-Azure PowerShell（Azモジュール）およびAzure Cloud Shellを利用し、Azureリソースの管理・情報取得・操作を実施しました。
+Azure Cloud Shell（Bash）を利用し、Azure CLIによるAzureリソースの情報取得および管理方法について学習しました。
 
 ### 学習内容
-* Azure Cloud Shellの利用
-* Azure PowerShell（Azモジュール）の利用
-* Azureへのサインイン
-* Resource Group情報の取得
-* Virtual Network情報の取得
-* Network Security Group情報の取得
-* Virtual Machine情報の取得
-* Cloud ShellからAzureリソースの操作方法を学習
+
+- Azure Cloud Shell（Bash）の利用
+- Azure CLIによるAzureリソースの情報取得
+- Azure PortalからCloud Shellを利用したリソース管理
+- ブラウザ上で利用できる管理環境について理解
+
+### 使用コマンド
+
+```bash
+az group list
+az vm list -o table
+az network vnet list -o table
+az network nsg list -o table
+```
+
+### 学習成果
+
+Azure Cloud Shellを利用し、ブラウザ上からAzure CLIを実行してAzureリソースの情報取得および管理方法について学習しました。
+
+---
+
+## Azure PowerShell（Azモジュール）
+
+Azure PowerShell（Azモジュール）を利用し、PowerShellによるAzureリソースの情報取得および管理方法について学習しました。
+
+### 学習内容
+
+- Azure PowerShell（Azモジュール）の利用
+- Azureへのサインイン
+- Resource Group情報の取得
+- Virtual Network情報の取得
+- Network Security Group情報の取得
+- Virtual Machine情報の取得
 
 ### 使用コマンド
 
@@ -194,7 +219,9 @@ Get-AzNetworkSecurityGroup
 Get-AzVM
 ```
 
-Azure Cloud ShellおよびAzure PowerShellを活用することで、ブラウザ上からAzureリソースを管理・操作する方法を習得し、GUIとCLIの両方を利用したAzure運用の基本を学習しました。
+### 学習成果
+
+Azure PowerShellを利用し、PowerShellコマンドによるAzureリソースの情報取得および管理方法について学習しました。
 
 ---
 
