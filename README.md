@@ -194,7 +194,6 @@ az network nsg list -o table
 
 Azure Cloud Shellを利用し、ブラウザ上からAzure CLIを実行してAzureリソースの情報取得および管理方法について学習しました。
 
----
 
 ## Azure PowerShell（Azモジュール）
 
@@ -223,7 +222,6 @@ Get-AzVM
 
 Azure PowerShellを利用し、PowerShellコマンドによるAzureリソースの情報取得および管理方法について学習しました。
 
----
 
 ## Terraform
 
